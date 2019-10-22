@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+        <link rel="stylesheet" href="C:\Users\Y720\Documents\pearstore\bootstrap\css\bootstrap.css"/>
+        <link rel="stylesheet" href="C:\Users\Y720\Documents\pearstore\fontawesome\css\all.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PearStore</title>
+  </head>
+  <body>
+      
+    <nav>
+        
+      <ul class="nav-list">
+        <li><a class="nav-links" href="registro.html">Login</a></li>
+        <li><a class="nav-links" href="./pedidos.html">Pedidos</a></li>
+        <li><a class="nav-links" href="#">Contacto</a></li>
+        <li><a class="nav-links" href="index.html">Inicio</a></li>
+      </ul>
+    </nav>
+
+    <main data-router-wrapper>
+      <section data-router-view="home" class="home">
+        <div class="home-content">
+          <div class="home-presentation">
+            <h1></h1>
+            <p></p>
+          </div>
+          <div class="container">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Sign In</h3>
+                            <div class="d-flex justify-content-end social_icon">
+                                <span><i class="fab fa-facebook-square"></i></span>
+                                <span><i class="fab fa-google-plus-square"></i></span>
+                                <span><i class="fab fa-twitter-square"></i></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="input-group form-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="username">
+                                    
+                                </div>
+                                <div class="input-group form-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="password">
+                                </div>
+                                <div class="row align-items-center remember">
+                                    <input type="checkbox">Remember Me
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Login" class="btn float-right login_btn">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-center links">
+                                Don't have an account?<a href="#">Sign Up</a>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <a href="#">Forgot your password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

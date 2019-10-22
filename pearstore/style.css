@@ -1,0 +1,228 @@
+@font-face{
+    font-family: ModernSans-Light;
+    src: url(./fonts/ModernSans-Light.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    font-family:ModernSans-Light;
+    height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50vh;
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.home {
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+.home-content{
+    display: flex;
+    padding-top: 300px;
+    padding-right: 13%;
+    justify-content: space-evenly;
+}
+.home {
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+img.pequeña{
+    width: 150px; height: 150px;
+  }
+
+.mini {
+    width: 50px; height: 50px; 
+}
+img.grande{
+    width: 50vh;
+    height: 50vh;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#descripcion {
+    /* text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
+   color: white;
+    /*background: white; */
+    margin-right: 100px;
+    margin-left: 600px;
+}
+/* -----------------------------------------------------------------PRODUCTOS---------------------------------------------------------------*/
+.products-list{
+    padding-top: 100px;
+	width: 82%;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+
+.products-list .product-item{
+    
+	width: 300px;
+	margin-left: 3%;
+    margin-bottom: 25px;
+    font-family: ModernSans-Light;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+    
+	transition: all .4s;
+}
+
+.products-list .product-item img{
+	 width: 100%; 
+}
+
+.products-list .product-item a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: #2D3E50;
+
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.wrap{
+    font-family: ModernSans-Light;
+    font-size: large;
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;     
+}
+
+.store-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list {
+    font-family:ModernSans-Light;
+    
+}
+
+.home-content-product{
+    display: block;
+    flex-direction: column; 
+    align-self: flex-start;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------COMPRAPRAODUCTOS--------------------------------------------------------------------------*/
+.boton-compra{
+    font-family: ModernSans-Light;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150vh;
+}
+
+/*------------------------------------------------------------------PAGO.HTML----------------------------------------------------------------------------------*/
+
+
+  
+  .nav-pills .nav-link {
+    color: #555;
+  }
+  
+ /*--------------------------------------------------------------LOGIN------------------------------------------------------------------------------------------ */
+ .container{
+    height: 100%;
+    align-content: center;
+    padding-left: 250px;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
